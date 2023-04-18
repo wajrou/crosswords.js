@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <title>Phil - a free crossword maker</title>
 </head>
-<body>
+<body onload="document.getElementById('grid').focus()">
   <div id="header">
     <h1><span id="puzzle-title" class="editable" contenteditable="true"
       onkeydown="suppressEnterKey(event)" onfocusout="setTitle()">Untitled</span>
